@@ -55,3 +55,51 @@ p {
     color: green;
 }
 ```
+# Propriedades para imagens
+## object-position  
+
+A propriedade CSS object-position especifica o alinhamento do conteúdo do elemento substituído selecionado dentro da caixa do elemento. As áreas da caixa que não são cobertas pelo objeto do elemento substituído mostrarão o fundo do elemento.  
+
+```css
+
+.element_one {
+    object-position: 50% 50%;
+}
+
+.element_two {
+    object-position: right top;
+}
+
+.element_three {
+    object-position: left bottom;
+}
+
+.element_four {
+    object-position: 250px 125px;
+}
+```
+## object-fit
+
+A propriedade CSS object-fit define como o conteúdo de um elemento substituído, como <img> ou <video>, deve ser redimensionado para caber em seu contêiner.  
+```css
+
+.element_one {
+    object-fit: fill;
+}
+
+.element_two {
+    object-fit: contain;
+}
+
+.element_three {
+    object-fit: cover;
+}
+
+.element_four {
+    object-fit: none;
+}
+
+.element_five {
+    object-fit: scale-down;
+}
+```
