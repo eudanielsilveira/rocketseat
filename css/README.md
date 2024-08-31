@@ -55,3 +55,45 @@ p {
     color: green;
 }
 ```
+# Valores e unidades de medidas
+
+Cada propriedade possui valores
+`property: value`
+
+```css
+h1 {
+    color: blue; /* color */
+    font-size: 32px; /* length */
+    letter-spacing: 2; /* number */
+    text-transform: uppercase; /* ? */
+}
+```
+`<data-type>`
+> Estudo constante a fim de entender as propriedades e seus valores
+>
+> # Seletores
+>```css
+/*
+    - type | element | tag
+    -id = #
+    - class = .nome
+    - atributo = [nome]
+    - universal = *
+*/
+p {
+    color: violet;
+}
+>```
+## Seletor de atributo
+
+```html
+<p  title> Lorem </>
+```
+```css
+[title] {
+    color: blue; /* color */
+    font-size: 32px; /* length */
+    letter-spacing: 2; /* number */
+    text-transform: uppercase; /* ? */
+}
+```
