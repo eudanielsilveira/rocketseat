@@ -70,9 +70,9 @@ h1 {
 ```
 `<data-type>`
 > Estudo constante a fim de entender as propriedades e seus valores
->
-> # Seletores
->```css
+
+# Seletores
+```css
 /*
     - type | element | tag
     -id = #
@@ -83,7 +83,7 @@ h1 {
 p {
     color: violet;
 }
->```
+```
 ## Seletor de atributo
 
 ```html
