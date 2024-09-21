@@ -1,0 +1,26 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+html {
+   font-size: 62.5%;
+   font-family: sans-serif;
+}
+
+body {
+   font-size: 2rem;
+   background-color:rgb(22, 22, 22) ;
+   color:rgb(201, 201, 201);
+}
+.code {
+    background-color: rgb(148, 148, 148);
+    padding: 0 .3rem;
+    border-radius: .3rem;
+}
+.content_article h3{
+    margin-bottom: 2rem;
+}
+p+p {
+    margin-bottom: 1rem;
+}
